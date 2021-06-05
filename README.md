@@ -15,7 +15,7 @@ Importantly, we devised a new approach to generate representations for complete 
 Using pre-trained contextual embeddings obtained from entire protein sequences, we devised a method for classifying TRP channel proteins from other channel proteins (non-TRP channels). We used BERT to represent all the protein sequences in our dataset. We provided the contextual representations obtained from the protein sequences by using pre-trained BERT models to a popular classification approach called Support Vector Machine (SVM). The SVM then discriminates whether a given protein sequence belongs to TRP channels or not based on the learning from contextualized representations.
 
 ## References
-* Samanta, A., Hughes, T. E., & Moiseenkova-Bell, V. Y. (2018). Transient receptor potential (TRP) channels. Membrane Protein Complexes: Structure and Function, 141-165.
-* Venkatachalam, K., & Montell, C. (2007). TRP channels. Annu. Rev. Biochem., 76, 387-417.
-* Nilius, B. (2007). TRP channels in disease. Biochimica et Biophysica Acta (BBA)-Molecular Basis of Disease, 1772(8), 805-812.
-* Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
+1. Samanta, A., Hughes, T. E., & Moiseenkova-Bell, V. Y. (2018). Transient receptor potential (TRP) channels. Membrane Protein Complexes: Structure and Function, 141-165.
+1. Venkatachalam, K., & Montell, C. (2007). TRP channels. Annu. Rev. Biochem., 76, 387-417.
+1. Nilius, B. (2007). TRP channels in disease. Biochimica et Biophysica Acta (BBA)-Molecular Basis of Disease, 1772(8), 805-812.
+1. Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
