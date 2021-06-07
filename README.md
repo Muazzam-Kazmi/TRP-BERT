@@ -7,9 +7,9 @@ In the current study, we used representations from Bidirectional Encoder Represe
 ## Our Contributions
 We have also listed our contriubtions as follows:
 
-For the present study, we have contructed a new dataset about TRP channels.
-We are the first research group to apply a powerful and advanced machine learning approach to classify TRP channels from non-TRP channels.
-Importantly, we devised a new approach to generate representations for complete sequence from pre-trained BERT models, and eliminated the constrain on the length of the input defined by the BERT.
+* For the present study, we have contructed a new dataset about TRP channels.
+* We are the first research group to apply a powerful and advanced machine learning approach to classify TRP channels from non-TRP channels.
+* Importantly, we devised a new approach to generate representations for complete sequence from pre-trained BERT models, and eliminated the constrain on the length of the input defined by the BERT.
 
 ## Methodology
 Using pre-trained contextual embeddings obtained from entire protein sequences, we devised a method for classifying TRP channel proteins from other channel proteins (non-TRP channels). We used BERT to represent all the protein sequences in our dataset. We provided the contextual representations obtained from the protein sequences by using pre-trained BERT models to a popular classification approach called Support Vector Machine (SVM). The SVM then discriminates whether a given protein sequence belongs to TRP channels or not based on the learning from contextualized representations.
